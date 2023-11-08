@@ -9,22 +9,21 @@ NAME = manFr
 
 SRC = main.cpp
 
-FLAG = -Wall -Werror=extra -Wextra -Werror -g
+FLAG = -Wall -Werror=extra -Wextra -std=c++98 -g
 
 OBJ = $(SRC:.cpp=.o)
 
-
-RED		= \033[38;5;9m
+RED	= \033[38;5;9m
 YELLOW	= \033[38;5;76m
 ORANGE	= \033[38;5;11m
 
 %.o: %.cpp
-	@c++ $(FLAG) -std=c++98 -c $< -o $@
+	@c++ $(FLAG) -c $< -o $@
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@c++ $(FLAG) -std=c++98 $(OBJ) -o $(NAME) \
+	@c++ $(FLAG) $(OBJ) -o $(NAME) \
 	| echo "$(ORANGE)XXXXXXXXXXXXXXXXXX\n\
 	X manFr compiled X\n\
 	XXXXXXXXXXXXXXXXXX"
