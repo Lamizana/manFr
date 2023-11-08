@@ -1,5 +1,5 @@
 - Created at 08/11/2023 by Alex LAMIZANA
-# manFR
+# manFr
     Le man en français, tout simplement...
 
 ## INSTALLATION:
