@@ -4,7 +4,7 @@
 
 ## INSTALLATION:
 Le fichier .zip fournit un executable.
-Cet executable s appelle manFR, pour le lancer:
+Cet executable s appelle manFr, pour le lancer:
 
     - ./manFr
 
