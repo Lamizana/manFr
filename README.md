@@ -2,5 +2,10 @@
 # manFR
     Le man en français, tout simplement...
 
-## Bienvenue en france:
+## INSTALLATION:
+Le fichier .zip fournit un executable.
+Cet executable s appelle manFR, pour le lancer:
+
+    - ./manFr
+
 
