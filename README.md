@@ -20,3 +20,5 @@ Cet executable s appelle manFr, pour le lancer:
 il faut, que je mette en DEFINE le nombre de "level":
 Cla revient au nombre de man disponible.
 
+Verification du Make file sur les projets precedants
+
