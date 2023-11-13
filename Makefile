@@ -1,13 +1,14 @@
 # ********************************************************************* #
-#    Makefile								#
-#                                                 		        #
-#    Created: 2023/07/22 by Alex LAMIZANA         			#
-#    Updated: 2023/11/08 by Alex LAMIZANA         			#
+#    Makefile															#
+#                                                 		      		    #
+#    Created: 2023/07/22 by Alex LAMIZANA         						#
+#    Updated: 2023/11/08 by Alex LAMIZANA         						#
 #                                                                       #
 # ********************************************************************* #
 NAME = manFr
 
-SRC = main.cpp
+SRC = main.cpp\
+	  ls.cpp
 
 FLAG = -Wall -Werror=extra -Wextra -std=c++98 -g
 
