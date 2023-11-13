@@ -8,4 +8,14 @@ Cet executable s appelle manFr, pour le lancer:
 
     - ./manFr
 
+## CREATION DU SOCLE:
+
+    - Makefile
+    - Main.cpp
+    - manFr.hpp
+    - Tout les fichiers correspondants au inputs
+
+## COMMENT CA FONCTIONNE:
+
+
 

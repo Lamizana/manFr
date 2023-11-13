@@ -8,7 +8,7 @@
 /* ************************************************************************** */
 #include "man.hpp"
 
-void	ft_ls( std::string const filename )
+void	lsFr( std::string const filename )
 {
 	std::ofstream writeFlux(filename.c_str());
 	if (!writeFlux)
