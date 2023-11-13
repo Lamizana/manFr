@@ -8,6 +8,9 @@ Cet executable s appelle manFr, pour le lancer:
 
     - ./manFr
 
+    - exemple:
+    ./manFr ls
+
 ## CREATION DU SOCLE:
 
     - Makefile
