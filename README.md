@@ -17,5 +17,6 @@ Cet executable s appelle manFr, pour le lancer:
 
 ## COMMENT CA FONCTIONNE:
 
-
+il faut, que je mette en DEFINE le nombre de "level":
+Cla revient au nombre de man disponible.
 
